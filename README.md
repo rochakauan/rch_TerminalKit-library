@@ -17,7 +17,7 @@
 ## Examples of use
 ```csharp
 using rch_TerminalKit;
-ConsoleUtils.Message("Olá, mundo!", ConsoleColor.Green);
+ConsoleUtils.Message("Hello, World!", ConsoleColor.Green);
 Draw.Box(20, 5, borderColor: ConsoleColor.Cyan);
 ```
 ---
