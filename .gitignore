@@ -1,0 +1,30 @@
+# .NET compilation
+bin/
+obj/
+
+# Visual Studio/VSCode User Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# Temporary files and backups
+*.log
+*.tmp
+*.bak
+
+# Local settings
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.cache
+*.config
+*.DS_Store
+Thumbs.db
+
+# Other folders that can be ignored
+Releases/
+publish/
