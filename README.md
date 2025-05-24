@@ -13,6 +13,7 @@
 - Global **runtime configuration** for *console behavior*.
 
 Ideal for creating **terminal-based** **games**, tools, and utilities with clear, styled and **configurable console output.**
+
 ----
 ## Installation
 **Not yet published on NuGet.** To use it locally:
