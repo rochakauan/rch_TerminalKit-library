@@ -1,8 +1,8 @@
-# .NET compilation
+# Compilação do .NET
 bin/
 obj/
 
-# Visual Studio/VSCode User Files
+# Arquivos de usuário do Visual Studio/VSCode
 *.user
 *.suo
 *.userosscache
@@ -10,12 +10,12 @@ obj/
 .vscode/
 .idea/
 
-# Temporary files and backups
+# Arquivos temporários e backups
 *.log
 *.tmp
 *.bak
 
-# Local settings
+# Configurações locais
 *.vspscc
 *.vssscc
 *.dbmdl
@@ -25,6 +25,19 @@ obj/
 *.DS_Store
 Thumbs.db
 
-# Other folders that can be ignored
+# Arquivos de pacotes
+*.nupkg
+*.snupkg
+*.nuspec
+
+# DocFX
+docs/_site/
+docs/api/
+
+# Tests
+TestResults/
+coverage/
+
+# Another folders that can be ignored
 Releases/
 publish/
