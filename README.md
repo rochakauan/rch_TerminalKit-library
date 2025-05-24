@@ -20,6 +20,10 @@ using rch_TerminalKit;
 ConsoleUtils.Message("Hello World!", ConsoleColor.Green);
 Draw.Box(20, 5, borderColor: ConsoleColor.Cyan);
 ```
+```csharp
+ConsoleUtils.Ask("What's your email adress?", ConsoleColor.Yellow, true);
+//the param "true" cleans the terminal before displaying the message
+```
 ---
 ## Documentation
 **Complete documentation** can be generated with **DocFX.**
@@ -39,4 +43,4 @@ docfx serve _site
 
 ---
 ## License
-[**MIT LICENSE**,](/rochakauan/rch_TerminalKit-library?tab=MIT-1-ov-file)
+[**MIT LICENSE**,](/rochakauan/rch_TerminalKit-library/blob/main/LICENSE
