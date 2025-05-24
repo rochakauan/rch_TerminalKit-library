@@ -17,13 +17,13 @@
 ## Examples of use
 ```csharp
 using rch_TerminalKit;
-ConsoleUtils.Message("Hello, World!", ConsoleColor.Green);
+ConsoleUtils.Message("Hello World!", ConsoleColor.Green);
 Draw.Box(20, 5, borderColor: ConsoleColor.Cyan);
 ```
 ---
 ## Documentation
 **Complete documentation** can be generated with **DocFX.**
-To visualize if locally:
+To visualize it locally:
 ```bash
 cd docs
 docfx metadata
