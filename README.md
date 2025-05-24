@@ -1,31 +1,42 @@
-# rch_TerminalKit 0.1.0 (Not finished yet...)
-
-Utilitary library for Console Applications (CLI) in C#.
+# TerminalKit
+#### Utility library for console applications in C#.
+##### rch_TerminalKit 0.0.1
 ---
-
 ## About
+`rch_TerminalKit` provides utilities to **facilitate the development of CLI apps**, including:
 
-rch_TerminalKit provides utilities to facilitate the development of CLI apps, including:
-
-- Colorful and interactive messages (ConsoleUtils)
-- Drawing borders and boxes in the console (Draw)
-
----
-
+- **Colorful and interactive** messages (`ConsoleUtils`)
+- **Drawing** borders and boxes **on the console** (`Draw`)
+- ----
 ## Installation
-
-Not yet published in Nuget, to download localy:
-
+**Not yet published on NuGet.** To use it locally:
 1. Clone the repository.
 2. Compile the DLL.
-3. Add it as a reference in your project.
-
+3. Add is as a reference in your project.
 ---
-
-## Exemples of use
-
+## Examples of use
 ```csharp
 using rch_TerminalKit;
-
-ConsoleUtils.Message("Hello, world!", ConsoleColor.Green);
+ConsoleUtils.Message("Olá, mundo!", ConsoleColor.Green);
 Draw.Box(20, 5, borderColor: ConsoleColor.Cyan);
+```
+---
+## Documentation
+**Complete documentation** can be generated with **DocFX.**
+To visualize if locally:
+```bash
+cd docs
+docfx metadata
+docfx build
+docfx serve _site
+```
+---
+## How to contribute
+1. **Fork** the project
+2. Create a **branch** for your feature (`git checkout -b my-feature`)
+3. Make **commits** (`git commit -m 'My new feature'`)
+4. **Push** to the **remote repository** (`git push origin my-feature`)
+
+---
+## License
+[**MIT LICENSE**,](/rochakauan/rch_TerminalKit-library?tab=MIT-1-ov-file)
