@@ -1,6 +1,6 @@
 # TerminalKit
 #### Utility library for console applications in C#.
-##### rch_TerminalKit 0.0.1
+##### rch_TerminalKit 0.0.1 (in development)
 ---
 ## About
 `rch_TerminalKit` provides utilities to **facilitate the development of CLI apps**, including:
@@ -12,7 +12,7 @@
 **Not yet published on NuGet.** To use it locally:
 1. Clone the repository.
 2. Compile the DLL.
-3. Add is as a reference in your project.
+3. Add it as a reference in your project.
 ---
 ## Examples of use
 ```csharp
@@ -35,7 +35,7 @@ docfx build
 docfx serve _site
 ```
 ---
-## How to contribute
+## (🤝) How to contribute
 1. **Fork** the project
 2. Create a **branch** for your feature (`git checkout -b my-feature`)
 3. Make **commits** (`git commit -m 'My new feature'`)
@@ -43,4 +43,4 @@ docfx serve _site
 
 ---
 ## License
-[**MIT LICENSE**,](/LICENSE)
+[**MIT LICENSE**](/LICENSE)
