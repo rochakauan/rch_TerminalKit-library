@@ -1,18 +1,28 @@
 # TerminalKit
 #### Utility library for console applications in C#.
-##### rch_TerminalKit 0.0.1 (in development)
+###### rch_TerminalKit 0.0.1 (in development)
 ---
 ## About
 `rch_TerminalKit` provides utilities to **facilitate the development of CLI apps**, including:
 
-- **Colorful and interactive** messages (`ConsoleUtils`)
-- **Drawing** borders and boxes **on the console** (`Draw`)
-- ----
+- **Colorful and interactive** messages (`ConsoleUtils`).
+- **User input** prompts with **validation**.
+- **Program pauses** in terminal with optional **messages**.
+- Control the *program termination* **with delay**.
+- **Drawing** borders and boxes **on the console** (`Draw`).
+- Global **runtime configuration** for *console behavior*.
+
+Ideal for creating **terminal-based** **games**, tools, and utilities with clear, styled and **configurable console output.**
+----
 ## Installation
 **Not yet published on NuGet.** To use it locally:
 1. Clone the repository.
 2. Compile the DLL.
 3. Add it as a reference in your project.
+
+#### Nuget installation in CLI (planned)
+`dotnet add package rch_TerminalKit`
+
 ---
 ## Examples of use
 ```csharp
