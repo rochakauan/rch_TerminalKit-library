@@ -43,4 +43,4 @@ docfx serve _site
 
 ---
 ## License
-[**MIT LICENSE**,](/rochakauan/rch_TerminalKit-library/LICENSE)
+[**MIT LICENSE**,](/LICENSE)
