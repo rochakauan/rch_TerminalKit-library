@@ -27,7 +27,7 @@
         /// <summary>
         /// Displays a question prompt and reads user input from the console.
         /// </summary>
-        /// <param name="message">The prompt message to display.</param>
+        /// <param name="questionMessage">The prompt message to display.</param>
         /// <param name="color">The color of the prompt message. If null, uses the default prompt color from <see cref="TerminalConfig"/>.</param>
         /// <param name="clearConsoleBefore">If true, clears the console before displaying the prompt.</param>
         /// <param name="cursorLeft">Optional left cursor position before displaying the prompt.</param>
@@ -35,7 +35,7 @@
         /// <param name="allowEmpty">If true, allows empty input; otherwise, re-prompts until valid input is provided.</param>
         /// <returns>The user's input as a string.</returns>
         public static string Ask(
-            string message,
+            string questionMessage,
             ConsoleColor? color = null,
             bool? clearConsoleBefore = null,
             int cursorLeft = 0,
@@ -45,7 +45,7 @@
             if (clearConsoleBefore ?? TerminalConfig.EnableClearBeforeMessages)
                 Console.Clear();
 
-            Message(message, color ?? TerminalConfig.DefaultPromptColor);
+            Message(questionMessage, color ?? TerminalConfig.DefaultPromptColor);
 
             if (cursorLeft != 0 || cursorTop != 0)
                 Console.SetCursorPosition(cursorLeft, cursorTop);
